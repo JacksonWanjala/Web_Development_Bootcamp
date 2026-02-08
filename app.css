@@ -1,12 +1,20 @@
-/*YOUR CODE GOES IN HERE*/
+/* YOUR CODE GOES IN HERE */
 
 
-h1 {
-    text-transform: uppercase;
-    font-family: monospace;
-    text-align: center;
-    font-weight: 100;
-    font-size: 40px;
-    letter-spacing: 20px;
-    text-decoration: underline wavy plum;
+.card{
+width: 210px;
+border-width: 1px ;
+border-style: solid;
+border-color:grey;
+border-radius: 5px;
+text-align: center;
+}
+
+img{
+width: 200px;
+border-width: 5px;
+border-style: solid ;
+
+border-color: rgb(236,183,191);
+border-radius: 50%;
 }
