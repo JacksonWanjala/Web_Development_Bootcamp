@@ -6,3 +6,9 @@ function rollDie(numSides=6){
 function greet(msg,person){
   console.log '${msg},${person}!'//thisline calls the function to print the content//
 }
+//NB: Default parameters should always come after those that do not have default values
+{
+  function greet(person, msg="Hey there"){
+    console.log('${msg},${person}!
+  }
+}
